@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/placeholder
+    url: ${MYSQL_URL}
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: "placeholder"
-    password: "placeholder"
+    username: ${MYSQLUSER}
+    password: ${MYSQLPASSWORD}
+
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
