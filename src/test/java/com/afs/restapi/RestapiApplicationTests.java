@@ -9,7 +9,7 @@ class RestapiApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.assertTrue(true);
+		Assertions.assertTrue(false);
 	}
 
 }
